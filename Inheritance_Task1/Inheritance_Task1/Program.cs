@@ -10,12 +10,17 @@ namespace Inheritance_Task1
             try
             {
                 Task task = new Task();
-                task.DoTask();   
+                task.DoTask();
             }
             catch (ArgumentException e)
             {
                 Console.WriteLine(e.Message);
             }
+            catch(Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            Console.ReadKey();
         }
     }
 }

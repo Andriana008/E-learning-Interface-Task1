@@ -43,13 +43,12 @@ namespace Inheritance_Task1
             return figures;
         }
 
-        public void OutputShapes(List<Shape> figures)
+        public void PrintShapes(List<Shape> figures)
         {
             Console.WriteLine("Shapes in the list");
             for (int i = 0; i < figures.Count; i++)
             {
-                Console.WriteLine("{0}: ", figures[i].GetType());
-                figures[i].Output();
+                figures[i].Print();
                 Console.WriteLine();
             }  
         }
@@ -57,7 +56,7 @@ namespace Inheritance_Task1
         public void DoTask()
         {
             List<Shape> shapes = GetBaseShapes();
-            OutputShapes(shapes);
+            PrintShapes(shapes);
 
             Console.WriteLine("Total Area of the shapes");
             Console.WriteLine(TotalArea(shapes));

@@ -2,23 +2,34 @@
 namespace Inheritance_Task1
 {
     public class Cuboid:Rectangle
-    { 
-        public double SideC { get; set; }
+    {
+        protected double sideC;
 
-        public Cuboid(Color color1 = Color.White, Color color2 = Color.White, double width = 1, double a = 1, double b = 1, double c = 1)
+        public double SideC
+        {
+            get
+            {
+                return sideC;
+            }
+            set
+            {
+                if (value < 0)
+                {
+                    throw new ArgumentException("Negative side C");
+                }
+                sideC = value;
+            }
+        }
+
+        public Cuboid(Color color1 = Color.White, Color color2 = Color.White, double width = 0, double a = 0, double b = 0, double c = 0)
             : base(color1, color2, width, a, b)
         {
             this.SideC = c;
-            if (SideC.Equals(0))
-            {
-                throw new Exception("invalid data");
-            }
         }
-        public override void Output()
+        public override void Print()
         {
-            Console.WriteLine("ContourColor:{0}", ContourColor);
-            Console.WriteLine("FillingColor:{0}", FillingColor);
-            Console.WriteLine("ContourWidth:{0}", ContourWidth);
+            Console.WriteLine("Cuboid:");
+            base.Print();
             Console.WriteLine("SideA:{0}", SideA);
             Console.WriteLine("SideB:{0}", SideB);
             Console.WriteLine("SideC:{0}", SideC);
@@ -27,9 +38,5 @@ namespace Inheritance_Task1
 		{
             return SideC * SideB * SideA;
 		}
-        public override string GetType()
-        {
-            return "Cuboid";
-        }
 	}
 }

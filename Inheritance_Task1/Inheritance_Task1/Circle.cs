@@ -4,23 +4,34 @@ namespace Inheritance_Task1
 {
     public class Circle:Shape
     {
-        public double Radius { get; set; }
+        protected double radius;
 
-        public Circle(Color color1 = Color.White, Color color2 = Color.White, double width = 1, double radius = 1)
-            : base(color1, color2, width)
+        public double Radius
         {
-            this.Radius = radius;
-            if (radius.Equals(0))
+            get
             {
-                throw new Exception("invalid data");
+                return radius;
+            }
+            set
+            {
+                if(radius < 0)
+                {
+                    throw new ArgumentException("Negative radius");
+                }
+                radius = value;
             }
         }
 
-        public override void Output()
+        public Circle(Color color1 = Color.White, Color color2 = Color.White, double width = 0, double radius = 0)
+            : base(color1, color2, width)
         {
-            Console.WriteLine("ContourColor:{0}", ContourColor);
-            Console.WriteLine("FillingColor:{0}", FillingColor);
-            Console.WriteLine("ContourWidth:{0}", ContourWidth);
+            this.Radius = radius;
+        }
+
+        public override void Print()
+        {
+            Console.WriteLine("Circle:");
+            base.Print();
             Console.WriteLine("Radius:{0}", Radius);
         }
 
@@ -37,11 +48,6 @@ namespace Inheritance_Task1
         public override double Volume()
         {
             return 0;
-        }
-
-        public override string GetType()
-        {
-            return "Circle";
         }
     }
 
