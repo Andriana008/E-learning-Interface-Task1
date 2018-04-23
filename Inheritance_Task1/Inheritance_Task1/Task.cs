@@ -33,13 +33,13 @@ namespace Inheritance_Task1
             figures.Add(new Cuboid(Color.Red, Color.Yellow, 2, 4, 7, 2));
             figures.Add(new Cylinder(Color.Blue, Color.Pink, 3, 6, 8));
             figures.Add(new Circle(Color.Black, Color.White, 5, 2));
-            figures.Add(new Rectangle(Color.Orange, Color.Pink, 1, 5, 3));
-            figures.Add(new Cuboid(Color.Red, Color.Yellow, 2, 8, 3, 2));
-            figures.Add(new Cylinder(Color.Blue, Color.Pink, 3, 3, 4));
-            figures.Add(new Circle(Color.Black, Color.White, 1, 2));
-            figures.Add(new Rectangle(Color.Orange, Color.Pink, 1, 2, 7));
-            figures.Add(new Cuboid(Color.Red, Color.Yellow, 3, 8, 4, 4));
-            figures.Add(new Cylinder(Color.Blue, Color.Pink, 2, 3, 5));
+            //figures.Add(new Rectangle(Color.Orange, Color.Pink, 1, 5, 3));
+            //figures.Add(new Cuboid(Color.Red, Color.Yellow, 2, 8, 3, 2));
+            //figures.Add(new Cylinder(Color.Blue, Color.Pink, 3, 3, 4));
+            //figures.Add(new Circle(Color.Black, Color.White, 1, 2));
+            //figures.Add(new Rectangle(Color.Orange, Color.Pink, 1, 2, 7));
+            //figures.Add(new Cuboid(Color.Red, Color.Yellow, 3, 8, 4, 4));
+            //figures.Add(new Cylinder(Color.Blue, Color.Pink, 2, 3, 5));
             return figures;
         }
 

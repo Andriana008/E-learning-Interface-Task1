@@ -13,7 +13,7 @@ namespace Inheritance_Task1
             }
             set
             {
-                if(height < 0)
+                if(value < 0)
                 {
                     throw new ArgumentException("Negative height");
                 }

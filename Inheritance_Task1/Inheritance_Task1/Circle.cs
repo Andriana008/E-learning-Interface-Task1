@@ -14,7 +14,7 @@ namespace Inheritance_Task1
             }
             set
             {
-                if(radius < 0)
+                if(value < 0)
                 {
                     throw new ArgumentException("Negative radius");
                 }
