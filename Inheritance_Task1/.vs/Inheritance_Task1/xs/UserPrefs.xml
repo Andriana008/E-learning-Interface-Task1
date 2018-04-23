@@ -1,0 +1,20 @@
+﻿<Properties StartupConfiguration="{32E537BC-2577-4434-BC2F-5113D1FE7E0C}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Inheritance_Task1/Task.cs">
+    <Files>
+      <File FileName="Inheritance_Task1/Shape.cs" Line="26" Column="40" />
+      <File FileName="Inheritance_Task1/Circle.cs" Line="28" Column="43" />
+      <File FileName="Inheritance_Task1/Rectangle.cs" Line="24" Column="10" />
+      <File FileName="Inheritance_Task1/Cuboid.cs" Line="21" Column="10" />
+      <File FileName="Inheritance_Task1/Cylinder.cs" Line="20" Column="10" />
+      <File FileName="Inheritance_Task1/Program.cs" Line="54" Column="51" />
+      <File FileName="Inheritance_Task1/Task.cs" Line="8" Column="13" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Inheritance__Task1 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

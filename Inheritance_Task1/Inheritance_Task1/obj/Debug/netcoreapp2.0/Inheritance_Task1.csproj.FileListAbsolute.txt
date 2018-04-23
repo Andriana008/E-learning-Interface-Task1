@@ -1,0 +1,11 @@
+/Users/Andriana/Desktop/E-learning-Interface-Task1/Inheritance_Task1/Inheritance_Task1/bin/Debug/netcoreapp2.0/Inheritance_Task1.deps.json
+/Users/Andriana/Desktop/E-learning-Interface-Task1/Inheritance_Task1/Inheritance_Task1/bin/Debug/netcoreapp2.0/Inheritance_Task1.runtimeconfig.json
+/Users/Andriana/Desktop/E-learning-Interface-Task1/Inheritance_Task1/Inheritance_Task1/bin/Debug/netcoreapp2.0/Inheritance_Task1.runtimeconfig.dev.json
+/Users/Andriana/Desktop/E-learning-Interface-Task1/Inheritance_Task1/Inheritance_Task1/bin/Debug/netcoreapp2.0/Inheritance_Task1.dll
+/Users/Andriana/Desktop/E-learning-Interface-Task1/Inheritance_Task1/Inheritance_Task1/bin/Debug/netcoreapp2.0/Inheritance_Task1.pdb
+/Users/Andriana/Desktop/E-learning-Interface-Task1/Inheritance_Task1/Inheritance_Task1/obj/Debug/netcoreapp2.0/Inheritance_Task1.csprojResolveAssemblyReference.cache
+/Users/Andriana/Desktop/E-learning-Interface-Task1/Inheritance_Task1/Inheritance_Task1/obj/Debug/netcoreapp2.0/Inheritance_Task1.csproj.CoreCompileInputs.cache
+/Users/Andriana/Desktop/E-learning-Interface-Task1/Inheritance_Task1/Inheritance_Task1/obj/Debug/netcoreapp2.0/Inheritance_Task1.AssemblyInfoInputs.cache
+/Users/Andriana/Desktop/E-learning-Interface-Task1/Inheritance_Task1/Inheritance_Task1/obj/Debug/netcoreapp2.0/Inheritance_Task1.AssemblyInfo.cs
+/Users/Andriana/Desktop/E-learning-Interface-Task1/Inheritance_Task1/Inheritance_Task1/obj/Debug/netcoreapp2.0/Inheritance_Task1.dll
+/Users/Andriana/Desktop/E-learning-Interface-Task1/Inheritance_Task1/Inheritance_Task1/obj/Debug/netcoreapp2.0/Inheritance_Task1.pdb
