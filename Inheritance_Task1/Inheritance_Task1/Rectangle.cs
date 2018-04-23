@@ -36,7 +36,10 @@ namespace Inheritance_Task1
             return 2 * (SideB + SideA);
         }
 
-        public override double Volume() => throw new NotImplementedException();
+        public override double Volume()
+        {
+            return 0;
+        }
 
         public override string GetType()
         {

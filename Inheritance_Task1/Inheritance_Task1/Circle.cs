@@ -34,7 +34,10 @@ namespace Inheritance_Task1
             return Math.PI * 2 * Radius;
         }
 
-        public override double Volume() => throw new NotImplementedException();
+        public override double Volume()
+        {
+            return 0;
+        }
 
         public override string GetType()
         {
