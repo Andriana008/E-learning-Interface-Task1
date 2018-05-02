@@ -27,12 +27,15 @@ namespace Inheritance_Task1
             this.Height = height;
         }
 
-        public override void Print()
+        public override string ToString()
         {
-            Console.WriteLine("Cylinder:");
-            base.Print();
-            Console.WriteLine("Radius:{0}", Radius);
-            Console.WriteLine("Height:{0}", Height);
+            string circStr = base.ToString().Replace("Circle", "Cylinder");
+            return $"{circStr}Height:{this.Height}\n";
+        }
+
+        public override double Area()
+        {
+            return 2 * base.Area() + 2 * Math.PI * radius * height;
         }
 
         public override double Volume()

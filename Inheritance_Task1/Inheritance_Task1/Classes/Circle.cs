@@ -28,11 +28,9 @@ namespace Inheritance_Task1
             this.Radius = radius;
         }
 
-        public override void Print()
+        public override string ToString()
         {
-            Console.WriteLine("Circle:");
-            base.Print();
-            Console.WriteLine("Radius:{0}", Radius);
+            return $"Circle:\n{base.ToString()}Radius:{this.Radius}\n";
         }
 
         public override double Area()

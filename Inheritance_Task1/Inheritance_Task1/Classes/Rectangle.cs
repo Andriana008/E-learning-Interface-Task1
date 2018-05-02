@@ -45,13 +45,11 @@ namespace Inheritance_Task1
             this.SideB = b;
         }
 
-        public override void Print()
+        public override string ToString()
         {
-            Console.WriteLine("Rectangle:");
-            base.Print();
-            Console.WriteLine("SideA:{0}", SideA);
-            Console.WriteLine("SideB:{0}", SideB);
+            return $"Rectangle:\n{base.ToString()}SideA:{this.SideA}\nSideB:{this.SideB}\n";
         }
+
         public override double Area()
         {
             return SideA * SideB;

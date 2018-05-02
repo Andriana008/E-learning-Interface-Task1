@@ -30,11 +30,9 @@ namespace Inheritance_Task1
             this.ContourWidth = width;
         }
 
-        public virtual void Print()
+        public override string ToString()
         {
-            Console.WriteLine("ContourColor:{0}", ContourColor);
-            Console.WriteLine("FillingColor:{0}", FillingColor);
-            Console.WriteLine("ContourWidth:{0}", ContourWidth);
+            return $"ContourColor:{this.ContourColor}\nFillingColor:{this.FillingColor}\nContourWidth:{this.ContourWidth}\n";
         }
 
         public abstract double Area();

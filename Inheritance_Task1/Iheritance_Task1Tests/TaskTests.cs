@@ -20,7 +20,7 @@ namespace Iheritance_Task1Tests
             figures.Add(new Circle(Color.Black, Color.White, 1, 2));
 
             Task task = new Task();
-            double excpected = 205.50441064025904;
+            double excpected = 791.86719848257485;
             double actual = task.TotalArea(figures);
 
             Assert.AreEqual(excpected, actual);

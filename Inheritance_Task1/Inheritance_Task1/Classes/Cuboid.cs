@@ -26,15 +26,20 @@ namespace Inheritance_Task1
         {
             this.SideC = c;
         }
-        public override void Print()
+
+        public override string ToString()
         {
-            Console.WriteLine("Cuboid:");
-            base.Print();
-            Console.WriteLine("SideA:{0}", SideA);
-            Console.WriteLine("SideB:{0}", SideB);
-            Console.WriteLine("SideC:{0}", SideC);
+            string rectStr = base.ToString();
+            rectStr = rectStr.Replace("Rectangle", "Cuboid");
+            return $"{rectStr}SideC:{this.SideC}\n";
         }
-		public override double Volume()
+
+        public override double Area()
+        {
+            return 2 * base.Area() + 2 * sideA * sideC + 2 * sideB * sideC;
+        }
+
+        public override double Volume()
 		{
             return SideC * SideB * SideA;
 		}
